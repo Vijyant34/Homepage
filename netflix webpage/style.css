@@ -1,0 +1,101 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: #080808;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botn{
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+nav .logo{
+    font-size: 300%;
+    margin-left: 7%;
+    color: #e5323b;
+    font-style: inherit;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: large;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    margin-top: 5%;
+}
+
+.email{
+    font-size:inherit;
+    width:330px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.hero h1,h2{
+    font-size: 350%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: larger;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #100e0e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
